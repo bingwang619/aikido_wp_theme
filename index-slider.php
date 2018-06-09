@@ -17,7 +17,7 @@ if( $current_options['home_banner_strip_enabled'] == 'on' && $current_options['s
 					<img alt="img" src="<?php echo esc_url($current_options['slider_image']); ?>" />	
 					<?php } ?>
 					<div class="container">
-						<div class="slide-caption">
+						<!-- div class="slide-caption">
 							<?php if($slide_options['title']!='') {?>
 							<h2><?php echo esc_html($slide_options['title']); ?></h2>
 							<?php } 
@@ -39,7 +39,7 @@ if( $current_options['home_banner_strip_enabled'] == 'on' && $current_options['s
 							<?php }?>	
 								
 							<?php } ?>
-						</div>		
+						</div -->		
 					</div>
 				</li>
 			</ul>		

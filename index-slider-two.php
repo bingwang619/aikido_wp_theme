@@ -10,7 +10,7 @@ if( $current_options['home_banner_strip_enabled'] == 'on' && $current_options['s
 				<li>
 					<img alt="img" src="<?php echo esc_url($current_options['slider_image']); ?>" />
 					<div class="container">
-						<div class="slide-caption">
+						<!-- div class="slide-caption">
 							<?php if($current_options['caption_head']!='') {?>
 							<h2><?php echo esc_html($current_options['caption_head']); ?></h2>
 							<?php } if($current_options['caption_text']!='') {?>
@@ -22,7 +22,7 @@ if( $current_options['home_banner_strip_enabled'] == 'on' && $current_options['s
 							target="_blank" <?php } ?> class="flex-btn"><?php echo esc_html($current_options['readmore_text']); ?></a>
 							</div>
 							<?php }?>
-						</div>		
+						</div -->		
 					</div>
 				</li>
 			</ul>		
